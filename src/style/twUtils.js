@@ -36,3 +36,24 @@ export const navLink = (isActive) => (
     isActive ? sidebarStyles.linkActive : sidebarStyles.link
 );
 
+//region Footer
+export const footerStyles = {
+    container: "bg-gray-900 text-white py-6 mt-10 fixed bottom-0 w-full",
+    inner: "container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4",
+    copy: "text-sm text-gray-400",
+    links: "flex gap-4 text-sm",
+    link: "hover:text-blue-400 transition-colors",
+    icons: "flex gap-3",
+    iconLink: "hover:text-blue-400 transition-colors",
+};
+
+//endregion
+
+export const faTextStyles = {
+
+    mainTitle: "text-3xl font-bold text-gray-800 mb-4 text-right font-vazir",
+    title: "text-1xl font-bold text-gray-800 mb-4 text-right font-vazir",
+    description: "text-gray-600 mb-6 text-right leading-loose font-vazir",
+
+
+}

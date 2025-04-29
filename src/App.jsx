@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Introduction from "./pages/Introduction.jsx";
 import Installation from "./pages/Installation.jsx";
 import StoreSetup from "./pages/StoreSetup.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </BrowserRouter>
     )
 }

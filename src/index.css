@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono','Vazirmatn', monospace;
+}
+html[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+    font-family: "Vazirmatn", "IRANSans", sans-serif;
+}
+
+html[dir="ltr"] {
+    direction: ltr;
+    text-align: left;
 }
