@@ -1,4 +1,3 @@
-
 export const headerStyles = {
     container: "bg-blue-600 text-white p-4",
     inner: "flex items-center justify-between px-10 sm:px-10 lg:px-15",
@@ -6,9 +5,9 @@ export const headerStyles = {
 };
 
 export const sidebarStyles = {
-    button:"absolute top-4 left-4 z-50 text-white bg-gray-800 p-2 rounded" +
+    button: "absolute top-4 left-4 z-50 text-white bg-gray-800 p-2 rounded" +
         " hover:bg-gray-700 transition cursor-pointer",
-    container: "bg-gray-800 text-white pt-16  h-screen transition-all duration-300 ease-in-out",
+    container: "bg-gray-800 text-white pt-16 min-h-screen h-full transition-all duration-300 ease-in-out overflow-y-auto",
     open: "w-64",
     closed: "w-0 overflow-hidden",
     toggleButton: "text-white mb-4",
@@ -38,7 +37,7 @@ export const navLink = (isActive) => (
 
 //region Footer
 export const footerStyles = {
-    container: "bg-gray-900 text-white py-6 mt-10 fixed bottom-0 w-full",
+    container: "bg-gray-900 text-white h-3 lg:h-10 py-6 mt-10 fixed bottom-0 w-full",
     inner: "container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4",
     copy: "text-sm text-gray-400",
     links: "flex gap-4 text-sm",
